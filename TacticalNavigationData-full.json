@@ -4,34 +4,59 @@
   "navigationAdviceData": {
     "targetTrack": {
       "tacticalTrackNumber": 1001,
-      "distance": 7408.0,
+      "distance": 12.5,
       "course": 270.0,
       "speed": 18.5,
       "isCircle": false
     },
     "referenceTrack": {
       "tacticalTrackNumber": 1002,
-      "distance": 33.7,
-      "course": 320.0,
-      "speed": 0.0,
-      "isCircle": false
+      "distance": 10.8,
+      "course": 265.0,
+      "speed": 17.2,
+      "isCircle": true
     },
-    "indication": 6
+    "indication": 1
   },
   "navigationResultData": {
-    "navigationLabel": 3,
+    "navigationLabel": 5,
     "rangeToGo": 25.75,
     "timeToGo": 3600,
-    "estimatedTimeOfArrival": 1787729525000
+    "estimatedTimeOfArrival": 1753286400000
   },
   "pointList": [
     {
       "latitude": -6.2088,
       "longitude": 106.8456,
-      "label": "",
+      "label": "WP-1",
       "completeLeg": false
+    },
+    {
+      "latitude": -6.2500,
+      "longitude": 106.9000,
+      "label": "WP-2",
+      "completeLeg": true
     }
   ],
-  "sectorList": [],
+  "sectorList": [
+    {
+      "startBearing": 0.0,
+      "endBearing": 90.0,
+      "startRange": 0.0,
+      "endRange": 5.0,
+      "sectorName": "Sector A",
+      "borderColor": 1,
+      "fillColor": 2
+    },
+    {
+      "startBearing": 90.0,
+      "endBearing": 180.0,
+      "startRange": 5.0,
+      "endRange": 10.0,
+      "sectorName": "Sector B",
+      "borderColor": 3,
+      "fillColor": 4
+    }
+  ],
   "isShow": true
 }
